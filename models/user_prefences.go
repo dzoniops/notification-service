@@ -2,7 +2,7 @@ package models
 
 
 
-type UserOptions struct {
+type UserPreferences struct {
 	UserId               int64 `bson:"user_id"`
 	CreateNewReservation bool  `bson:"create_new_reservation"`
 	CancelReservation    bool  `bson:"cancel_reservation"`
